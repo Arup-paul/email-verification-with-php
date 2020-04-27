@@ -19,7 +19,7 @@
                 <div class="alert alert-success">
                     You are now logged In
                 </div>
-                 <h3>Welcome,Arup paul</h3>
+                 <h3>Welcome,Arup  paul</h3>
                  <a href="#" class="logout">logout</a>
 
                  <div class="alert alert-warning">
