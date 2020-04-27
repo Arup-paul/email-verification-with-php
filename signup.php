@@ -28,13 +28,13 @@ require_once "controllers/authController.php";
                   <form action="signup.php" method="post">
                       <h3 class="text-center">Register</h3>
 
-                        <?php if ( count( $errors ) > 0 ){  ?>
+                        <?php if ( count( $errors ) > 0 ) {?>
                        <div class="alert alert-danger">
-                            <?php foreach ( $errors as $error ){ ?>
+                            <?php foreach ( $errors as $error ) {?>
                            <li><?php echo $error; ?></li>
-                            <?php } ?>
+                            <?php }?>
                        </div>
-                            <?php } ?>
+                            <?php }?>
 
                       <div class="form-group">
                         <label for="username">Username</label>
