@@ -3,6 +3,13 @@
 
 require_once "controllers/authController.php";
 
+// verify the user using token
+if(isset($_GET['token'])){
+    $token = $_GET['token'];
+    verifyUser($token);
+}
+
+// session not set
 if(!isset($_SESSION['id'])){
     header('location:login.php');
     exit();
