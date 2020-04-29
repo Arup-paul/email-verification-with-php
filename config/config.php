@@ -1,8 +1,8 @@
 <?php 
 
 
-define('EMAIL','your gmail id');
-define('PASSWORD','your gmail password');
+define('EMAIL','aruppaulctg@gmail.com');
+define('PASSWORD','@Aruppaul192001222');
 
 define('DB_HOST','localhost');
 define('DB_USER','root');

@@ -9,6 +9,11 @@ if(isset($_GET['token'])){
     verifyUser($token);
 }
 
+// verify the user using token
+if(isset($_GET['password-token'])){
+    $password_token = $_GET['password-token'];
+    resetPassword($password_token);
+}
 // session not set
 if(!isset($_SESSION['id'])){
     header('location:login.php');
